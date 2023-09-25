@@ -8,7 +8,7 @@ jobs:
    create_team:
      runs-on: ubuntu-latest
      steps:
-        - run: gh api --method POST  -H ${ ACCEPT_STR }  -H ${ API_VER }  /orgs/jp-apptesting/teams  -f name='Junk League'  -f description='A Junk team'  -f permission='push'  -f notification_setting='notifications_enabled'  -f privacy='closed'
+        - run: gh api --method POST  -H $ACCEPT_STR  -H $API_VER  /orgs/jp-apptesting/teams  -f name='Junk League'  -f description='A Junk team'  -f permission='push'  -f notification_setting='notifications_enabled'  -f privacy='closed'
      env:
        GITHUB_TOKEN: ${{ secrets.JP_TOKEN }}
        OWNER: ${{ github.repository_owner }}
