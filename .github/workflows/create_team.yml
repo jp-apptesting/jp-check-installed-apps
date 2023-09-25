@@ -1,4 +1,4 @@
-ame: create teams
+name: create teams
 on: [workflow_dispatch]
 env: 
   ACCEPT_STR: "Accept: application/vnd.github+json"
