@@ -8,5 +8,5 @@ jobs:
                 /orgs/jp-apptesting/teams   -f name='Junk League'  -f description='A Junk team'  -f permission='push' \
                 -f notification_setting='notifications_enabled'  -f privacy='closed
      env:
-       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       GITHUB_TOKEN: ${{ secrets.JP_TOKEN }}
        OWNER: ${{ github.repository_owner }}
