@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           OWNER: ${{ github.repository_owner }}
         
-        uses: rmacklin/team-sync@v0.6.0
+        uses: rmacklin/team-sync@v0.5.0
         with:
           #repo-token: "${{ secrets.ORG_ADMIN_ACCESS_TOKEN }}" 
           repo-token: "${{steps.generate_token.outputs.token}}" 
