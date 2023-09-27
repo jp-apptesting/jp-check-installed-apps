@@ -1,10 +1,10 @@
 name: create teams
-on: 
-  push:
-      branches:
-        - main
-      paths:
-        - '.github/teams.yml'
+on: workflow_dispatch
+ # push:
+  #    branches:
+    #    - main
+     # paths:
+      #  - '.github/teams.yml'
 
 env: 
   ACCEPT_STR: "Accept: application/vnd.github+json"
