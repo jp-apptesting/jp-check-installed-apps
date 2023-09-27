@@ -1,0 +1,14 @@
+designers:
+  description: The amazing design team
+  slack: "#design-team"
+  members:
+  - name: Alice Smith
+    github: alicesmith
+  - name: Bob Jones
+    github: bjonesdev
+fighters:
+  members:
+  - name: Dave Grohl
+    github: dgrohl
+  - name: Taylor Hawkins
+    github: taylorhawk1
