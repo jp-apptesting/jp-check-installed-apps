@@ -2,8 +2,8 @@ designers:
   description: The amazing design team
   slack: "#design-team"
   members:
-  - name: Alice Smith
-    github: alicesmith
+  - name: Alice Jones
+    github: alicejones
   - name: Bob Jones
     github: bjonesdev
 fighters:
