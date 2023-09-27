@@ -10,7 +10,9 @@ env:
   ACCEPT_STR: "Accept: application/vnd.github+json"
   API_VER: "X-GitHub-Api-Version: 2022-11-28"
 jobs:
+  
   jp_testapp:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Generate a token
