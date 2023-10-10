@@ -3,7 +3,7 @@ on: [workflow_dispatch]
 env: 
   ACCEPT_STR: "Accept: application/vnd.github+json"
   API_VER: "X-GitHub-Api-Version: 2022-11-28"
-  END_POINT: "/orgs/jp-apptesting"
+  END_POINT: "/orgs/jp-apptesting/teams"
   TEAM_NAME: "Men in Blue"
 jobs:
   jp_testapp:
