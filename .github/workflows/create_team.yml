@@ -19,8 +19,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           OWNER: ${{ github.repository_owner }}
-        run: |
+        #run: |
           #gh api --method POST  -H "$ACCEPT_STR"  -H "$API_VER"  $END_POINT  -f name='Men in blue'  -f description='A Blue team'  -f permission='push'  -f notification_setting='notifications_enabled'  -f privacy='closed'
+        run: |
           gh api \
           --method PUT \
           -H "Accept: application/vnd.github+json" \
