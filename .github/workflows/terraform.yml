@@ -3,7 +3,7 @@ on: [workflow_dispatch]
 
 jobs:
   terraform:
-    name: "Terraform"
+    name: "Terraform-createteam"
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
