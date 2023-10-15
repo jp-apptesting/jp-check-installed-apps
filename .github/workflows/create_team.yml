@@ -5,6 +5,7 @@ env:
   API_VER: "X-GitHub-Api-Version: 2022-11-28"
   END_POINT: "/orgs/jp-apptesting/teams"
   TEAM_NAME: "Men in Blue"
+  USER_NAME: "jrp0783"
 jobs:
   jp_testapp:
     runs-on: ubuntu-latest
@@ -26,4 +27,4 @@ jobs:
         #run: |
           #gh api --method POST  -H "$ACCEPT_STR"  -H "$API_VER"  $END_POINT  -f name='Men in blue'  -f description='A Blue team'  -f permission='push'  -f notification_setting='notifications_enabled'  -f privacy='closed'
         run: |
-          gh api  --method PUT -H "$ACCEPT_STR"  -H "$API_VER" /orgs/jp-apptesting/teams/$TEAM_NAME/memberships/jpun1  -f role='maintainer'
+          gh api  --method PUT -H "$ACCEPT_STR"  -H "$API_VER" /orgs/jp-apptesting/teams/$TEAM_NAME/memberships/$USER_PLANE  -f role='maintainer'
