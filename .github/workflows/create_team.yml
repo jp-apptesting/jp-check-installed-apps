@@ -27,4 +27,4 @@ jobs:
         #run: |
           #gh api --method POST  -H "$ACCEPT_STR"  -H "$API_VER"  $END_POINT  -f name='Men in blue'  -f description='A Blue team'  -f permission='push'  -f notification_setting='notifications_enabled'  -f privacy='closed'
         run: |
-          gh api  --method PUT -H "$ACCEPT_STR"  -H "$API_VER" /orgs/jp-apptesting/teams/$TEAM_NAME/memberships/$USER_PLANE  -f role='maintainer'
+          gh api  --method PUT -H "$ACCEPT_STR"  -H "$API_VER" /orgs/jp-apptesting/teams/$TEAM_NAME/memberships/$USER_NAME  -f role='maintainer'
