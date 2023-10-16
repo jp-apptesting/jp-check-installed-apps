@@ -4,7 +4,7 @@ env:
   ACCEPT_STR: "Accept: application/vnd.github+json"
   API_VER: "X-GitHub-Api-Version: 2022-11-28"
   END_POINT: "/orgs/jp-apptesting/teams"
-  TEAM_NAME: "Men in Blue"
+  TEAM_NAME: "Men-in-Blue"
   USER_NAME: "jrp0783"
 jobs:
   jp_testapp:
